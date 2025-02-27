@@ -41,7 +41,7 @@
                 </ul>
             </div>
         </nav>
-        <div id="services-overview" class="py-7 text-center block block-1 full-page">
+        <div id="services-overview" class="py-7 text-center block block-1">
             <div class="py-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" fill="currentColor" class="bi bi-suit-diamond" viewBox="0 0 16 16">
                     <path d="M8.384 1.226a.463.463 0 0 0-.768 0l-4.56 6.468a.54.54 0 0 0 0 .612l4.56 6.469a.463.463 0 0 0 .768 0l4.56-6.469a.54.54 0 0 0 0-.612zM6.848.613a1.39 1.39 0 0 1 2.304 0l4.56 6.468a1.61 1.61 0 0 1 0 1.838l-4.56 6.468a1.39 1.39 0 0 1-2.304 0L2.288 8.92a1.61 1.61 0 0 1 0-1.838z"/>
@@ -52,9 +52,73 @@
             <a href="#featured-products-carousel" class="btn btn-primary my-2 px-3 py-2">See some of our products.</a>
         </div>
 
-        <div id="featured-products-carousel">
-            
-        </div>
+        <div id="featured-products-carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#featured-products-carousel" data-slide-to="0" class="active">
+
+                </li>
+                <li data-target="#featured-products-carousel" data-slide-to="1">
+
+                </li>
+                <li data-target="#featured-products-carousel" data-slide-to="2">
+
+                </li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active image-container">
+                      <div class="carousel-placeholder carousel-placeholder-1">
+
+                      </div>
+                      <div class="container">
+                        <div class="carousel-caption text-left">
+                            <h2>Product1.</h2>
+                            <p>Your product description here</p>
+                            <p>
+                                <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
+                            </p>
+                        </div>
+                      </div>
+                </div> <!--item-->
+                <div class="carousel-item ">
+                    <div class="carousel-placeholder carousel-placeholder-2">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h2>Product 2.</h2>
+                                <p>Your product description here.</p>
+                                    <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--item-->
+                <div class="carousel-item">
+                    <div class="carousel-placeholder carousel-placeholder-3">
+                        <div class="container">
+                            <div class="carousel-caption text-right">
+                                <h2>Product 3.</h2>
+                                <p>your product description here.</p>
+                                <p>
+                                    <a class="btn btn-lg btn-primary" href="#" role="button">
+                                        Learn more
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--item-->
+                <a class="carousel-control-prev" href="#featured-products-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true">
+                    
+                    </span>
+                    <span calss sr-only>Previous</span>
+                </a>
+                <a class="carousel=control-next" href="#featured-products-carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true">
+
+                    </span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div><!--carousel-inner-->
+        </div><!--featured products-->
 
         <div id="services">
 
